@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Store</title>
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/main.css">  
+    <link rel="stylesheet" href="./asset/Fonts/fontawesome-free-5.15.4-web/css/all.min.css">
+
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="navbar">
+                <div class="header__navbar">
+                    <div class="header__phone">
+                        <a href="" class="header__phone--number">
+                            <div class="header__phone--number-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            Hỗ trợ:0338 014 536
+                        </a>
+                    </div>
+                    <div class="header__logo">
+                        <img src="./asset/img/logo.webp" alt="">
+                    </div>
+                    <div class="header__icon-navbar">
+                        <i class="header__icon fas fa-search"></i>
+                        <i class="header__icon far fa-user"></i>
+                        <i class="header__icon fas fa-shopping-cart">
+                        <span class="header__cart-number">3</span>
+                        </i>
+                    </div>
+                </div>
+            </div>
+            <div class="category">
+                <ul class="header__category-list">
+                    <li class="header__category-item">
+                        <div class="header__category-title">
+                            <a>TRANG CHỦ</a>
+                        </div>
+                    </li>
+                    <li class="header__category-item">
+                        <div class="header__category-title">
+                            <span>MARVEL/DC</span>
+                            <i class="header__category-item-icon fas fa-angle-down"></i>
+                        </div>
+                        <ul class="header__category-option1">
+                            <li class="header__category-option-item">
+                                <a>Vũ Khí Tối Thượng</a>
+                            </li>
+                            <li class="header__category-option-item">
+                                <a>Sản Phẩm Công Nghệ</a>
+                            </li>
+                            <li class="header__category-option-item">
+                                <a>Phụ Kiện Đặc Biệt</a>
+                            </li>
+                            <li class="header__category-option-item">
+                                <a>Áo Siêu Anh Hùng</a>
+                            </li>
+                            <li class="header__category-option-item">
+                                <a>Balo</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__category-item">
+                        <div class="header__category-title">
+                            <span>MANGA/ANIME</span>
+                            <i class="header__category-item-icon fas fa-angle-down"></i>
+                        </div>
+                        <ul class="header__category-option2">
+                            <li class="header__category-option-item">
+                                <a>Dragol Ball</a>
+                            </li>
+                            <li class="header__category-option-item">
+                                <a>Naruto</a>
+                            </li>
+                            <li class="header__category-option-item">
+                                <a>One Piece</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__category-item">
+                        <div class="header__category-title">
+                            <span>SẢN PHẨM THEO PHIM</span>
+                            <i class="header__category-item-icon fas fa-angle-down"></i>
+                        </div>
+                        <ul class="header__category-option3">
+                            <li class="header__category-option-item">
+                                <a>Marvel</a>
+                            </li>
+                            <li class="header__category-option-item">
+                                <a>7 Viên Ngọc Rồng</a>
+                            </li>
+                            <li class="header__category-option-item">
+                                <a>Transformer</a>
+                            </li>
+                            <li class="header__category-option-item">
+                                <a>Tam Quốc Diễn Nghĩa</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__category-item">
+                        <div class="header__category-title">
+                            <span>SẢN PHẨM THEO GAME</span>
+                            <i class="header__category-item-icon fas fa-angle-down"></i>
+                        </div>
+                        <ul class="header__category-option4">
+                            <li class="header__category-option-item">
+                                <a>GAME DOTA</a>
+                            </li>
+                            <li class="header__category-option-item">
+                                <a>GAME LOL</a>
+                            </li>
+                            <li class="header__category-option-item">
+                                <a>GAME PUBG</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__category-item">
+                        <div class="header__category-title">
+                            <a>SẢN PHẨM ĐẶC BIỆT</a>
+                        </div>
+                    </li>
+                    <li class="header__category-item">
+                        <div class="header__category-title">
+                            <a>HOT SALE</a>
+                        </div>
+                    </li>
+                    <li class="header__category-item">
+                        <div class="header__category-title">
+                            <a>ĐỊA CHỈ MUA HÀNG</a>
+                        </div>
+                    </li>
+                    <li class="header__category-item">
+                        <div class="header__category-title">
+                            <a>LIÊN HỆ</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <!-- slider-img-start -->
+        <div id="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+
+                <div class="slide first">
+                    <img src="./asset/img/slide 1.jpg" alt="" class="slide-img">
+                </div>
+                <div class="slide">
+                    <img src="./asset/img/slide 2.jpg" alt="" class="slide-img">
+                </div>
+                <div class="slide">
+                    <img src="./asset/img/slide 3.jpg" alt="" class="slide-img">
+                </div>
+                <div class="slide">
+                    <img src="./asset/img/slide 4.jpg" alt="" class="slide-img">
+                </div>
+                <div class="slide">
+                    <img src="./asset/img/slide 5.jpg" alt="" class="slide-img">
+                </div>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn1"></div>
+                </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+            </div>
+            <script type="text/javascript">
+                var counter = 1;
+                setInterval(function(){
+                    document.getElementById('radio' + counter).checked = true;
+                    counter++;
+                    if(counter > 5){
+                        counter = 1;
+                    }
+                },5000);
+            </script>
+        </div>
+        <div class="content">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__colum-3">
+                        <div class="category-content">
+                            <h3 class="category-heading">
+                                DANH MỤC SẢN PHẨM
+                            </h3>
+                            <ul class="category-conten__list">
+                                <li class="category-conten__item">
+                                    <a href="" class="category-conten__item--link">Trang Chủ</a>
+                                </li>
+                                <li class="category-conten__item">
+                                    <a href="" class="category-conten__item--link">MARVEL/DC</a>
+                                </li>
+                                <li class="category-conten__item">
+                                    <a href="" class="category-conten__item--link">MANGA/ANIME</a>
+                                </li>
+                                <li class="category-conten__item">
+                                    <a href="" class="category-conten__item--link">Sản Phẩm Theo Phim</a>
+                                </li>
+                                <li class="category-conten__item">
+                                    <a href="" class="category-conten__item--link">Sản Phẩm Theo Game</a>
+                                </li>
+                                <li class="category-conten__item">
+                                    <a href="" class="category-conten__item--link">Sản Phẩm Đặc Biệt</a>
+                                </li>
+                                <li class="category-conten__item">
+                                    <a href="" class="category-conten__item--link">Hot Sale</a>
+                                </li>
+                                <li class="category-conten__item">
+                                    <a href="" class="category-conten__item--link">Địa Chỉ Mua Hàng</a>
+                                </li>
+                                <li class="category-conten__item">
+                                    <a href="" class="category-conten__item--link">Liên Hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid__colum-9">
+                        <div class="home__filter">
+                            <div class="home__filter-title">
+                                <span>Vũ khí tối thượng/mặt nạ</span>
+                                <div class="home__filter-select">
+                                    <span>Sắp xếp theo:</span>
+                                    <span class="select-option">
+										<select class="select-option__item">
+											<option value="manual">Sản phẩm nổi bật</option>
+											<option value="price-ascending">Giá: Tăng dần</option>
+											<option value="price-descending">Giá: Giảm dần</option>
+											<option value="title-ascending">Tên: A-Z</option>
+											<option value="title-descending">Tên: Z-A</option>
+											<option value="created-ascending">Cũ nhất</option>
+											<option value="created-descending">Mới nhất</option>
+											<option value="best-selling">Bán chạy nhất</option>
+										</select>
+									</span>
+                                </div>
+                            </div>
+                            <div class="home__product">
+                                <div class="grid__row">
+                                    <div class="grid__colum-3-3">
+                                        <a href="" class="home__product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/82dcbf7e003847c7ba7f9fd0db5d9192)"></div>
+                                                <h4 class="home-product-item__name">Bàn phím gaming giả Cơ Fuhlen, Dareu LK145, Newmen cũ các hãng - đèn LED 7 màu xuyên Key Cap chơi đêm -GAMING KEYBOAD</h4>
+                                                <div class="home-product-item__price">
+                                                    <span class="home-product-item__price-old"></span>
+                                                    <span class="home-product-item__price-current">₫50.000 - ₫200.000</span>
+                                                </div>
+                                                <div class="home-product-item__action">
+                                                    <span class="home-product-item__like home-product-item__like--liked">
+                                                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                    </span>
+                                                    <div class="home-product-item__rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__colum-3-3">
+                                        <a href="" class="home__product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/82dcbf7e003847c7ba7f9fd0db5d9192)"></div>
+                                                <h4 class="home-product-item__name">Bàn phím gaming giả Cơ Fuhlen, Dareu LK145, Newmen cũ các hãng - đèn LED 7 màu xuyên Key Cap chơi đêm -GAMING KEYBOAD</h4>
+                                                <div class="home-product-item__price">
+                                                    <span class="home-product-item__price-old"></span>
+                                                    <span class="home-product-item__price-current">₫50.000 - ₫200.000</span>
+                                                </div>
+                                                <div class="home-product-item__action">
+                                                    <span class="home-product-item__like home-product-item__like--liked">
+                                                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                    </span>
+                                                    <div class="home-product-item__rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__colum-3-3">
+                                        <a href="" class="home__product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/82dcbf7e003847c7ba7f9fd0db5d9192)"></div>
+                                                <h4 class="home-product-item__name">Bàn phím gaming giả Cơ Fuhlen, Dareu LK145, Newmen cũ các hãng - đèn LED 7 màu xuyên Key Cap chơi đêm -GAMING KEYBOAD</h4>
+                                                <div class="home-product-item__price">
+                                                    <span class="home-product-item__price-old"></span>
+                                                    <span class="home-product-item__price-current">₫50.000 - ₫200.000</span>
+                                                </div>
+                                                <div class="home-product-item__action">
+                                                    <span class="home-product-item__like home-product-item__like--liked">
+                                                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                    </span>
+                                                    <div class="home-product-item__rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__colum-3-3">
+                                        <a href="" class="home__product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/82dcbf7e003847c7ba7f9fd0db5d9192)"></div>
+                                                <h4 class="home-product-item__name">Bàn phím gaming giả Cơ Fuhlen, Dareu LK145, Newmen cũ các hãng - đèn LED 7 màu xuyên Key Cap chơi đêm -GAMING KEYBOAD</h4>
+                                                <div class="home-product-item__price">
+                                                    <span class="home-product-item__price-old"></span>
+                                                    <span class="home-product-item__price-current">₫50.000 - ₫200.000</span>
+                                                </div>
+                                                <div class="home-product-item__action">
+                                                    <span class="home-product-item__like home-product-item__like--liked">
+                                                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                    </span>
+                                                    <div class="home-product-item__rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__colum-3-3">
+                                        <a href="" class="home__product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/82dcbf7e003847c7ba7f9fd0db5d9192)"></div>
+                                                <h4 class="home-product-item__name">Bàn phím gaming giả Cơ Fuhlen, Dareu LK145, Newmen cũ các hãng - đèn LED 7 màu xuyên Key Cap chơi đêm -GAMING KEYBOAD</h4>
+                                                <div class="home-product-item__price">
+                                                    <span class="home-product-item__price-old"></span>
+                                                    <span class="home-product-item__price-current">₫50.000 - ₫200.000</span>
+                                                </div>
+                                                <div class="home-product-item__action">
+                                                    <span class="home-product-item__like home-product-item__like--liked">
+                                                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                    </span>
+                                                    <div class="home-product-item__rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                        </a>
+                                    </div>
+                                    <div class="grid__colum-3-3">
+                                        <a href="" class="home__product-item">
+                                            <div class="home-product-item__img" style="background-image: url(https://cf.shopee.vn/file/82dcbf7e003847c7ba7f9fd0db5d9192)"></div>
+                                                <h4 class="home-product-item__name">Bàn phím gaming giả Cơ Fuhlen, Dareu LK145, Newmen cũ các hãng - đèn LED 7 màu xuyên Key Cap chơi đêm -GAMING KEYBOAD</h4>
+                                                <div class="home-product-item__price">
+                                                    <span class="home-product-item__price-old"></span>
+                                                    <span class="home-product-item__price-current">₫50.000 - ₫200.000</span>
+                                                </div>
+                                                <div class="home-product-item__action">
+                                                    <span class="home-product-item__like home-product-item__like--liked">
+                                                        <i class="home-product-item__like-icon-empty far fa-heart"></i>
+                                                        <i class="home-product-item__like-icon-fill fas fa-heart"></i>
+                                                    </span>
+                                                    <div class="home-product-item__rating">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                    </div>
+                                                </div>
+                                        </a>
+                                    </div>s
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+</html>
